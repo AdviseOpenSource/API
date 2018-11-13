@@ -2,20 +2,20 @@ const
 
 	express = require('express'),
 
+	cors = require('cors'),
+
 	app = express(),
 
-	port = 7000,
-
-	cors = require('cors');
-
-// Make public folder an static directory.
-app.use(express.static('public'));
+	port = 7000;
 
 // Make the application CORS enabled for all origins.
 app.use(cors());
 
-// Hello world!
-app.get('/', (request, response) => response.json({ messages: [ { body: 'Hello world!' } ] }));
+// Parses incoming requests with JSON payloads.
+app.use(express.json());
 
-// Run the server on port ${port}.
+// Routes.
+app.use(require('./routes'));
+
+// Run the server.
 app.listen(port, () => console.log(`Listening on port ${port}.`));
