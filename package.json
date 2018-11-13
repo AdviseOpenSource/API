@@ -1,10 +1,10 @@
 {
-  "name": "API",
+  "name": "advise-api",
   "version": "1.0.0",
   "description": "Estudos de desenvolvimento de API REST.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/AdviseOpenSource/API/issues"
   },
-  "homepage": "https://github.com/AdviseOpenSource/API#readme"
+  "homepage": "https://github.com/AdviseOpenSource/API#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.6"
+  }
 }
