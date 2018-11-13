@@ -1,0 +1,20 @@
+{
+  "name": "API",
+  "version": "1.0.0",
+  "description": "Estudos de desenvolvimento de API REST.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdviseOpenSource/API.git"
+  },
+  "keywords": [],
+  "author": "Diego Lopes Lima",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AdviseOpenSource/API/issues"
+  },
+  "homepage": "https://github.com/AdviseOpenSource/API#readme"
+}
