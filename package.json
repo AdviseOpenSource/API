@@ -4,7 +4,7 @@
   "description": "Estudos de desenvolvimento de API REST.",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon --experimental-modules index.mjs"
   },
   "repository": {
     "type": "git",

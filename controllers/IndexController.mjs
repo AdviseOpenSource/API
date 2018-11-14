@@ -1,5 +1,5 @@
-module.exports = {
-	async index(request, response) {
+export default {
+	index(request, response) {
 
 		response
 
